@@ -1,0 +1,24 @@
+.navbar.navbar-5 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5');
+}
+    
+.navbars {
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;       
+}
+
+nav li, nav ul, nav a {
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;  
+}
+
+.footer {
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;       
+}

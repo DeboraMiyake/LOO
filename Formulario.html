@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Bootstrap - Formulários</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+ <div class="container">
+    <div class="page-header">
+        <h3>Formulário Bootstrap</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+        <h4>Cadastre-se</h4>
+    <form>
+        <div class="form-group">
+            <label for ="nome">Nome</label>
+            <input type="text" id= "nome" class="form-control"> 
+        </div>
+        <div class="form-group">
+            <label for ="email">E-mail</label>
+            <input type="mail" id= "email" class="form-control"> 
+        </div>
+        <div class="form-group">
+            <label for ="senha">Senha</label>
+            <input type="password" id= "senha" class="form-control"> 
+        </div>
+        <div>
+            <label>
+            <input type="checkbox">
+            Aceito os termos de serviço
+            </label>
+        </div>
+        <div>
+            <label>
+            <input type="radio" name="opcao">
+            PHP
+            </label>
+            <label>
+            <input type="radio" name="opcao">
+            Java
+            </label>
+        </div>
+        <button type="submit" class="btn btn-danger">Cadastrar</button>
+    </form>
+        </div>
+        <div class="col-sm-4">
+        <h3>Logar</h3>
+    <form>
+         <div class ="form-group">
+            <input type ="mail" class ="form-control" placeholder="Digite seu e-mail">
+         </div>
+         <div class ="form-group">
+            <input type ="password" class ="form-control" placeholder="Digite sua senha">
+         </div>
+            <button type ="submit" class ="btn btn-danger">Logar</button>
+    </form>
+        </div>      
+    </div>
+ </div>
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
